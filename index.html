@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Web Portfolio</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="Foto_Profil.jpg" alt="Profile Picture">
+        <h2>Nadhifah Ramadhini Sofyan</h2>
+        <nav>
+            <ul>
+                <li><a href="#introduction"><i class="fas fa-user"></i> Introduction</a></li>
+                <li><a href="#project"><i class="fas fa-laptop-code"></i> Project</a></li>
+				<li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <section id="introduction">
+            <h1>Introduction</h1>
+			<p style="text-align: justify;">Hi, I am a fresh graduate with a Bachelor's Degree in automotive industry information systems from Jakarta STMI Polytechnic. Interested in web design, database management, and php programming using laravel. Experienced in creating web-based quotation systems.  </p> 
+        </section>
+        <section id="project">
+            <h1>Project</h1>
+            <div class="project-item">
+                <h3>Project Quotation</h3>
+                <p>Designed to facilitate the process of creating and managing price quotations for customers, the system employs a user-friendly interface that simplifies the quotation process. This user-friendly interface streamlines the process of generating price quotations for customers.</p>
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="login.jpg" alt="Deskripsi Gambar 1" width="400" height="200">
+                        <p>Login: The page that appears when the user wants to access the price quotation calculation information system by entering the registered email address and password.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="material.jpg" alt="Deskripsi Gambar 2" width="400" height="200">
+                        <p>Material: The page containing material data. Supervisor can insert, import, edit, and delete the material data.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="process.jpg" alt="Deskripsi Gambar 3" width="400" height="200">
+                        <p>Process: The page containing process data. Supervisor can insert, import, edit, and delete the process data.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="currency_slide.jpg" alt="Deskripsi Gambar 4" width="400" height="200">
+                        <p>Currency Slide: The page containing currency slide data. Supervisor can insert, import, edit, and delete the currency slide data.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="currency_non_slide.jpg" alt="Deskripsi Gambar 5" width="400" height="200">
+                        <p>Currency Non Slide: The page containing currency non slide data. Supervisor can insert, import, edit, and delete the currency non slide data.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="part_cost.jpg" alt="Deskripsi Gambar 6" width="400" height="200">
+                        <p>Part Cost: The page containing part cost data. Staff can insert part cost data, calculate price quotation,  and edit price quotation.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="calculate_pq.jpg" alt="Deskripsi Gambar 7" width="400" height="200">
+                        <p>Calculate Price Quotation: The page contain empty price quotation form. Staff can calculate price quotation, view, and download price quotation to excel.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="edit_pq.jpg" alt="Deskripsi Gambar 8" width="400" height="200">
+                        <p>Edit Price Quotation: The page contain price quotation form that can be viewed or changed. Staff can edit price quotation, view, and download price quotation to excel.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="summary_part_cost.jpg" alt="Deskripsi Gambar 9" width="400" height="200">
+                        <p>Summary Part Cost: The page containing part cost data. Supervisor can edit and delete price quotation .</p>
+                    </div>
+
+
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot" onclick="goToSlide(0)"></span>
+                    <span class="dot" onclick="goToSlide(1)"></span>
+                    <span class="dot" onclick="goToSlide(2)"></span>
+                    <span class="dot" onclick="goToSlide(3)"></span>
+                    <span class="dot" onclick="goToSlide(4)"></span>
+                    <span class="dot" onclick="goToSlide(5)"></span>
+                    <span class="dot" onclick="goToSlide(6)"></span>
+                    <span class="dot" onclick="goToSlide(7)"></span>
+                    <span class="dot" onclick="goToSlide(8)"></span>
+                    <!-- Tambahkan lebih banyak span jika ada lebih banyak slide -->
+                </div>
+            </div>
+        </section>
+        
+        
+        
+		<section id="experience">
+			<h1>Experience</h1>
+            <p>Apprenticeship:</p>
+			<ul class="experience-list">
+				<li>
+					<div class="experience-header">
+						<h3>Marketing, PT Toyota Boshoku Indonesia</h3>
+						<span class="experience-duration">July 2022 – Dec 2022</span>
+					</div>
+					<p>- Learned about Marketing Procedures, including dealing with contracts and understanding customer satisfaction.</p>
+					<p>- Became familiar with technical documents like PCR, ECI, and EIS.</p>
+					<p>- Studied Quotation Events and Sales Price.</p>
+				</li>
+				<li>
+					<div class="experience-header">
+						<h3>Production Control Division, PT Toyota Boshoku Indonesia</h3>
+						<span class="experience-duration">May 2022 - June 2022</span>
+					</div>
+					<p>Learned important Procurement concepts, like forecasting orders and using Kanban.</p>
+				</li>
+				<li>
+					<div class="experience-header">
+						<h3>Toyota Production System, PT Toyota Boshoku Indonesia</h3>
+						<span class="experience-duration">March 2022 - April 2022</span>
+					</div>
+					<p>- Learned and Applied KAIZEN principles.</p>
+					<p>- Established information and material flow using MIFC (Material Information Flow Chart).</p>
+					<p>- Analyzed and comprehended Cycle Issues related to goods arrival and delivery.</p>
+				</li>
+			</ul>
+		</section>
+		
+        <section id="contact">
+            <h1>Contact</h1>
+            <a href="https://www.linkedin.com/in/nadhifah17/" target="_blank" rel="noopener noreferrer" class="custom-link">
+                <i class="fab fa-linkedin"></i> Nadhifah Ramadhini
+            </a>
+            <p><i class="fas fa-envelope"></i><a href="mailto:17nadhifahrmdhini17@gmail.com" class="custom-link">17nadhifahrmdhini17@gmail.com</a></p>
+            <a href="https://github.com/nadhifah17/" target="_blank" rel="noopener noreferrer" class="custom-link">
+                <i class="fab fa-github"></i> nadhifah17
+            </a>
+            <p><i class="fab fa-instagram"></i> nadhifahrmdhn</p> 
+            <p><i class="fas fa-home"></i> Vila Mutiara Gading 1 Blok F7 no. 5, Bekasi Utara</p>
+        </section>
+        
+        
+    </div>
+</body>
+</html>
+
+<script> 
+// Scroll to section when a link is clicked
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("nav a");
+    links.forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            const targetSection = document.querySelector(link.getAttribute("href"));
+            targetSection.scrollIntoView({ behavior: "smooth" });
+        });
+    });
+});
+</script>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.dot');
+
+    // Tambahkan event listener untuk tombol panah kiri dan kanan
+    document.addEventListener('keyup', function (event) {
+    if (event.keyCode === 37) { // Tombol panah kiri
+        changeSlide(-1);
+    } else if (event.keyCode === 39) { // Tombol panah kanan
+        changeSlide(1);
+    }
+});
+
+    function goToSlide(slideIndex) {
+        currentSlide = slideIndex;
+        updateCarousel();
+    }
+
+    function updateCarousel() {
+        slides.forEach((slide, index) => {
+            if (index === currentSlide) {
+                slide.style.display = 'block';
+                dots[index].classList.add('active-dot');
+            } else {
+                slide.style.display = 'none';
+                dots[index].classList.remove('active-dot');
+            }
+        });
+    }
+
+    updateCarousel();
+</script>
+
+
+
